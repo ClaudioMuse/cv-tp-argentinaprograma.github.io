@@ -1,0 +1,93 @@
+
+
+/* Formato de la pagina */
+body {
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+/* Formato del div conteniendo FotoCV e Iconos */
+div {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+}
+
+#FotoCV {
+    display: block;
+    margin:auto;
+    border-radius: 50%;
+    max-width: 110%;
+    max-height: 110%;
+}
+
+#nombre {
+
+    text-align: center;
+}
+
+#Iconos {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+/* Formato del div Informacion */
+
+#Info {
+
+    height: 25px;
+    text-align: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    
+}
+
+/* Formato de la barra links ancla */
+
+#Links {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Formato para el parrafo*/
+
+p {
+    font-size: 19px;
+
+}
+
+/* Formato de las listas */
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Informacion complementaria */
+
+#div-a {
+
+    display: none;
+    padding-bottom: 15px;
+}
+
+#div-b {
+
+    display: none;
+    padding-bottom: 15px;
+}
+
+
+
